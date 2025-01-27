@@ -1,0 +1,26 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;  // Ensure you import the User model
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+
+class SuperAdminSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        User::create([
+            'name' => 'PIT TABANGO ADMIN',   // Replace with desired admin name
+            'email' => 'pittabango@admin.com',  // Replace with desired admin email
+            'password' => Hash::make('pittabango2024'),  // Replace with desired admin password
+            'phone_number' => '09317317321',  // Replace with valid phone number
+            'department' => 'Technology',  // Optional department
+            'designation' => 'Admin',  // Assign the 'admin' designation
+            'banned' => false,  // This user is not banned
+        ]);
+    }
+}

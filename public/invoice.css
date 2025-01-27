@@ -1,0 +1,143 @@
+body{
+
+    font-family: system-ui, system-ui, sans-serif;
+
+}
+
+table{
+
+    border-spacing: 0;
+
+}
+
+table td, table th, p{
+
+    font-size: 13px !important;
+
+}
+
+img{
+
+    border: 3px solid #F1F5F9;
+
+    padding: 6px;
+
+    background-color: #F1F5F9;
+
+}
+
+.table-no-border{
+
+    width: 100%;
+
+}
+
+.table-no-border .width-50{
+
+    width: 50%;
+
+}
+
+.table-no-border .width-70{
+
+    width: 70%;
+
+    text-align: left;
+
+}
+
+.table-no-border .width-30{
+
+    width: 30%;
+
+}
+
+.margin-top{
+
+    margin-top: 40px;
+
+}
+
+.product-table{
+
+    margin-top: 20px;
+
+    width: 100%;
+
+    border-width: 0px;
+
+}
+
+.product-table thead th{
+
+    background-color: #60A5FA;
+
+    color: white;
+
+    padding: 5px;
+
+    text-align: left;
+
+    padding: 5px 15px;
+
+}
+
+.width-20{
+
+    width: 20%;
+
+}
+
+.width-50{
+
+    width: 50%;
+
+}
+
+.width-25{
+
+    width: 25%;
+
+}
+
+.width-70{
+
+    width: 70%;
+
+    text-align: right;
+
+}
+
+.product-table tbody td{
+
+    background-color: #F1F5F9;
+
+    color: black;
+
+    padding: 5px 15px;
+
+}
+
+.product-table td:last-child, .product-table th:last-child{
+
+    text-align: right;
+
+}
+
+.product-table tfoot td{
+
+    color: black;
+
+    padding: 5px 15px;
+
+}
+
+.footer-div{
+
+    background-color: #F1F5F9;
+
+    margin-top: 100px;
+
+    padding: 3px 10px;
+
+}
